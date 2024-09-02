@@ -24,3 +24,12 @@ export function handleTermsClick() {
     site: "Turner Kendall",
     copy: "Some Rights Reserved.",
   });
+
+  export const siteData = 
+  {
+    title: 'The Dic Site',
+    subtitle: 'by Turner Kendall',
+    description: 'This is a simple little project I whipped up.  It is a dictionary essentailly...',
+    image: '/images/theDic.webp',
+    imageAlt: 'The Dic Site by Turner',
+  }
