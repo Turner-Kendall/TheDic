@@ -25,7 +25,7 @@
         <div class="col-lg-3 col-md-6 col-sm-12">
           <h5>Test</h5>
           <ul class="list-unstyled">
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a @click="handlePrivacyClick">Privacy Policy</a></li>
             <li><a href="#">Terms of Use</a></li>
             <li><a href="https://github.com/Turner-Kendall/TheDic">Get This Code</a></li>
           </ul>
@@ -55,10 +55,27 @@
 <script setup>
 import { ref } from 'vue'
 import { footerSections } from '../js/footerSections'
+import Swal from "sweetalert2";
 const data = ref({
   year: new Date().getFullYear(),
   link: "https://turnerkendall.com",
   site: "Turner Kendall",
   copy: "Some Rights Reserved.",
 });
+
+const handlePrivacyClick = async () => {
+  Swal.fire({
+    title: 'Privacy Policy',
+    text: 'This site does not collect your data - We do not record searches, track you, set cookies or anything like that 😸',
+    icon: 'success',
+    confirmButtonText: 'Cool'
+  }).then(() => {
+    window.location.href = '/admin/manage';
+  });
+}
+
+
+
+
+
 </script>
