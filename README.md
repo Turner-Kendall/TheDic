@@ -15,3 +15,9 @@ TheDic.Site accomplishes these goals-ish;  I included getting the domain, settin
 ##### todo
 
 - re bug?  While attempting to limit what kinda data is being passed around I am trying to do validation on the search input without a library but something is amiss.
+
+---
+
+You can see the final product at: [https](https://thedic.site/) 
+
+I deployed it to Cloudflare within the 24 hours :)
