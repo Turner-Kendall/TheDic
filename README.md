@@ -10,6 +10,7 @@ TheDic.Site accomplishes these goals-ish;  I included getting the domain, settin
 
 - You need to run -  ```npm run dev```  to get Vite running your Vue instance at http://localhost:5173/
 
+---
 
-
+- re bug?  While attempting to limit what kinda data is being passed around I am trying to do validation on the search input without a library but something is amiss.
 

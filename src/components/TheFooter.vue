@@ -7,7 +7,7 @@
           <h5>The Dic Site</h5>
           <ul class="list-unstyled">
             <li><a href="/">The Dic Site</a></li>
-            <li><a href="https://github.com/Turner-Kendall/TheDic/blob/main/README.md">About This</a></li>
+            <li><a target="_blank" href="https://github.com/Turner-Kendall/TheDic/blob/main/README.md">About This</a></li>
             <li><a href="https://turnerkendall.com/contact">Contact Me</a></li>
           </ul>
         </div>
@@ -53,39 +53,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { footerSections } from '../js/footerSections'
-import Swal from "sweetalert2";
-const data = ref({
-  year: new Date().getFullYear(),
-  link: "https://turnerkendall.com",
-  site: "Turner Kendall",
-  copy: "Some Rights Reserved.",
-});
-
-const handlePrivacyClick = async () => {
-  Swal.fire({
-    title: 'Privacy Policy',
-    text: 'This site does not collect your data - It does not record searches, track you, set cookies or anything like that 😸',
-    icon: 'question',
-    confirmButtonText: 'Cool'
-  }).then(() => {
-    window.location.href = '/admin/manage';
-  });
-}
-
-const handleTermsClick = async () => {
-  Swal.fire({
-    title: 'Terms of Service',
-    text: 'You are free to use this service to search the dic; you can click the links in the footer as well 😸  All other uses are prohibited?',
-    icon: 'info',
-    confirmButtonText: 'Cool'
-  }).then(() => {
-    window.location.href = '/admin/manage';
-  });
-}
-
-
-
-
+import { data } from '@/js/utils'
+import {handleTermsClick,  handlePrivacyClick} from '@/js/utils'
 </script>
