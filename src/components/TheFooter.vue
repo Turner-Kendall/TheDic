@@ -13,7 +13,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <h5>Test</h5>
+          <h5>Turner Kendall</h5>
           <ul class="list-unstyled">
             <li><a href="https://turnerkendall.com">Turner Kendall</a></li>
             <li><a href="https://x.com/tkendall_III">Me on X</a></li>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <h5>Test</h5>
+          <h5>Deets</h5>
           <ul class="list-unstyled">
             <li><a @click="handlePrivacyClick">Privacy Policy</a></li>
             <li><a @click="handleTermsClick">Terms of Use</a></li>
@@ -32,7 +32,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <h5>Test</h5>
+          <h5>External</h5>
           <ul class="list-unstyled">
             <li><a href="https://app.addy.io/">Addy</a></li>
             <li><a href="https://www.jetbrains.com/lp/mono/">Jet Brains Mono</a></li>
