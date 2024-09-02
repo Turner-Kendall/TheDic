@@ -6,12 +6,9 @@
 
 TheDic.Site accomplishes these goals-ish; I wanted to publish even though it is not finished as it does *work*
 
-
 ---
 
-- You need to run -  ```npm run dev``` 
-
-to get Vite running your Vue instance at http://localhost:5173/
+- You need to run -  ```npm run dev```  to get Vite running your Vue instance at http://localhost:5173/
 
 
 

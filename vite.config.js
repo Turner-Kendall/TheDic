@@ -3,6 +3,9 @@ import vue from '@vitejs/plugin-vue';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
+  build: {
+    sourcemap: false, // Disable source maps
+  },
   plugins: [vue()],
   resolve: {
     alias: {

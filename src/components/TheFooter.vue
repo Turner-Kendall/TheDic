@@ -2,16 +2,44 @@
   <footer id="main-footer">
     <div class="container footer-wrapper">
       <div class="row">
-        <div v-for="section in footerSections" 
-          :key="section.title" 
-          class="col-lg-3 col-md-6 col-sm-12">
-          <h5>{{ section.title }}</h5>
+        
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h5>The Dic Site</h5>
           <ul class="list-unstyled">
-            <li v-for="link in section.links" :key="link.id">
-              <a :href="link.link">{{ link.title }}</a>
-            </li>
+            <li><a href="/">The Dic Site</a></li>
+            <li><a href="#">About This</a></li>
+            <li><a href="https://turnerkendall.com/contact">Contact Me</a></li>
           </ul>
         </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h5>Test</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://turnerkendall.com">Turner Kendall</a></li>
+            <li><a href="https://x.com/tkendall_III">Me on X</a></li>
+            <!-- <li><a href="https://kayso.com">Kayso Podcast</a></li> -->
+            <li><a href="https://turnerkendall.com/page/link">More Links</a> </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h5>Test</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="https://github.com/Turner-Kendall/TheDic">Get This Code</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h5>Test</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Your Link Here</a></li>
+            <li><a href="#">Your Link Here</a></li>
+            <li><a href="https://www.wptallahassee.com/">WP Tallahassee</a></li>
+          </ul>
+        </div>
+      
       </div>
     </div>
 
