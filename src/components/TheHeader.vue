@@ -10,7 +10,3 @@
 
   </header>
 </template>
-
-<style scoped>
-h3 {font-size: 1rem; margin: -10px 0 0 5px; color:#f472b6}
-</style>

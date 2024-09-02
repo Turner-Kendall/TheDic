@@ -7,7 +7,7 @@
           <h5>The Dic Site</h5>
           <ul class="list-unstyled">
             <li><a href="/">The Dic Site</a></li>
-            <li><a href="#">About This</a></li>
+            <li><a href="https://github.com/Turner-Kendall/TheDic/blob/main/README.md">About This</a></li>
             <li><a href="https://turnerkendall.com/contact">Contact Me</a></li>
           </ul>
         </div>
